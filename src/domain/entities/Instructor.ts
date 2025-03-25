@@ -1,5 +1,5 @@
-import { Entity } from "../../core/entities/Entity";
-import { UniqueEntityID } from "../../core/entities/value-objects/UniqueEntityID";
+import { Entity } from "@/core/entities/Entity";
+import { UniqueEntityID } from "@/core/entities/value-objects/UniqueEntityID";
 
 interface InstructorProps {
   name: string;
