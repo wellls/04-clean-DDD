@@ -4,7 +4,7 @@ import { UniqueEntityID } from '@/core/entities/value-objects/UniqueEntityID'
 import { Optional } from '@/core/types/optional'
 import { Slug } from './value-objects/Slug'
 
-interface QuestionProps {
+export interface QuestionProps {
   authorId: UniqueEntityID
   bestAnswerId?: UniqueEntityID
   title: string
